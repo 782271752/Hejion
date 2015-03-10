@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">炅言</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_welcome">Welcome</string>
+    <string name="company_name">深圳互娱网络科技有限公司</string>
+    <string name="title_activity_login">登录</string>
+    <string name="login_username">账户</string>
+    <string name="login_psd">密码</string>
+    <string name="login_rem_psd">记住密码</string>
+    <string name="login">登       录</string>
+    <string name="main_title">主页</string>
+    <string name="main_name">何炅</string>
+    <string name="main_city">湖南长沙市</string>
+    <string name="persional_introduce">个人简介：</string>
+    <string name="introduce">自1998年起，主持湖南卫视的《快乐大本营》栏目长达十五年。此外，主演《正德演义》等影视剧，并发行过3张音乐专辑和4部文学作品，2004年发行歌曲《栀子花开》。曾先后主持快乐男声、超级女声、勇往直前、百变大咖秀等超高收视节目。获得第五、二十五届中国电视金鹰奖优秀主持人奖，第十六届上海电视节电视节目主持人30年年度风云人物，湖南卫视最佳主持人和最受欢迎主持人奖，并作为主持人入围2009年亚洲电视节最佳娱乐节目主持人奖。</string>
+    <string name="main_write_message">发布炅言</string>
+    <string name="main_read_message">浏览炅言</string>
+    <string name="main_info">个人信息</string>
+    <string name="main_exit">退出</string>
+    <string name="title_activity_write_mess">WriteMessActivity</string>
+    <string name="write_titile">标题：</string>
+    <string name="write_content">发布留言：</string>
+    <string name="write_title_hint">做个标题,更清晰明了哟~</string>
+    <string name="write_message_hint">发现了什么好东西，发表下吧~</string>
+    <string name="write_send">发       布</string>
+    <string name="write_voice">语音</string>
+    <string name="write_vedio">视频</string>
+    <string name="write_image">图片</string>
+    <string name="title_activity_info">InfoActivity</string>
+    <string name="change_head_image">更换头像</string>
+    <string name="info_name">姓       名</string>
+    <string name="info_real_name">炅炅</string>
+    <string name="info_sex">性       别</string>
+    <string name="info_real_sex">男</string>
+    <string name="info_city">常  居  地</string>
+    <string name="info_real_city">湖南长沙市</string>
+    <string name="info_introduce">个人介绍</string>
+    <string name="title_activity_image_file_list">选择图片</string>
+    <string name="title_select_image">我的相片流</string>
+    <string name="complete">完成</string>
+    <string name="title_activity_camera">CameraActivity</string>
+    <string name="camera_time">00:00</string>
+    <string name="title_activity_img_view_pager">ImgViewPagerActivity</string>
+
+</resources>

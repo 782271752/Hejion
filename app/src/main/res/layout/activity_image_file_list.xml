@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.li.hejion.FileListActivity">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp">
+
+        <ImageButton
+            android:layout_marginLeft="-10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@drawable/btn_back"
+            android:background="@null"
+            android:id="@+id/back" />
+
+        <TextView
+            android:id="@+id/file_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title_activity_image_file_list"
+            android:textColor="@color/light_black"
+            android:layout_centerInParent="true"
+            android:textSize="20sp"/>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/login_line"/>
+
+    <ListView
+        android:id="@+id/image_file_lv"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/login_bg"
+        android:cacheColorHint="@color/login_bg">
+    </ListView>
+
+
+
+</LinearLayout>

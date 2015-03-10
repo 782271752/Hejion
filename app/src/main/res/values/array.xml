@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="vedio">
+        <item>拍摄视频</item>
+        <item>选择手机中的视频</item>
+    </string-array>
+
+    <string-array name="image">
+        <item>拍摄照片</item>
+        <item>选择手机中的图片</item>
+    </string-array>
+
+
+</resources>

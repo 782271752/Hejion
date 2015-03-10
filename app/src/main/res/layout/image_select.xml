@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#EFEFEF"
+     >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp">
+
+        <ImageButton
+            android:layout_marginLeft="-10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@drawable/btn_back"
+            android:background="@null"
+            android:id="@+id/back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title_select_image"
+            android:textColor="@color/light_black"
+            android:layout_centerInParent="true"
+            android:textSize="20sp"
+            android:id="@+id/image_select_title" />
+
+        <Button
+            android:id="@+id/image_select_complete_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:background="@drawable/btn_complete"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:textColor="@color/blue"
+            android:text="@string/complete"
+            android:textSize="16sp"
+            android:layout_marginRight="10dp"/>
+
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/select_view"
+        android:layout_below="@id/relativeLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/login_line"/>
+
+    <GridView
+        android:id="@+id/gridView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/select_view"
+        android:horizontalSpacing="5dp"
+        android:verticalSpacing="5dp"
+        android:numColumns="3" >
+    </GridView>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:alpha="0.9"
+        android:background="@drawable/select_image_bottom_bg" >
+
+        <Button
+            android:id="@+id/image_select_pre_btn"
+            android:layout_width="60dp"
+            android:layout_height="35dp"
+            android:background="@drawable/btn_complete_normal"
+            android:layout_marginRight="15dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:textColor="@color/white"
+            android:text="预览"
+            android:textSize="16sp"/>
+
+        <HorizontalScrollView
+            android:visibility="gone"
+            android:id="@+id/scrollview"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none" >
+
+            <LinearLayout
+                android:id="@+id/selected_image_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:paddingTop="3dp"
+                android:paddingLeft="3dp"
+                android:orientation="horizontal" >
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="#ADD8E6"
+            android:visibility="gone"
+            android:textColor="@android:color/black"
+            android:text="已选择(0)张" />
+    </RelativeLayout>
+
+</RelativeLayout>

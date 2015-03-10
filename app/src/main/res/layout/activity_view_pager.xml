@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.li.hejion.ImgViewPagerActivity">
+
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+
+    <ImageView
+        android:id="@+id/view_pager_delet_btn"
+        android:layout_margin="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/image_check_pressed"/>
+
+    <TextView
+        android:id="@+id/view_pager_count"
+        android:layout_margin="20dp"
+        android:textSize="24sp"
+        android:text="0/0"
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/light_white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
